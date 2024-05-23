@@ -7,10 +7,10 @@ body {
 
 .card {
     background-color: hsl(0, 0%, 12%);
-    width: 88%;
-    height: 75%;
+    width: 90%;
+    height: 73%;
     margin-top: 140px;
-    margin-left: 20px;
+    margin-left: 18px;
     align-items: center;
     border-radius: 15px;
 }
@@ -54,9 +54,9 @@ h2 {
 p {
     color: hsl(0, 0%, 100%);
     margin-top: 20px;
-    margin-left: 44px;
+    margin-left: 47px;
     font-family: "Inter";
-    font-size: 13.5px;
+    font-size: 13.75px;
     font-weight: 400;
 }
 
@@ -67,7 +67,7 @@ nav {
 li {
     list-style-type: none;
     margin-bottom: 20px;
-    padding-top: 30px;
+    padding-top: 25px;
 }
 
 #link {
@@ -79,8 +79,8 @@ li {
 .github {
     margin-left: -10px;
     padding-top: 15px;
-    padding-left: 113px;
-    padding-right: 113px;
+    padding-left: 116px;
+    padding-right: 116px;
     padding-bottom: 15px;
     font-family: "Inter";
     font-size: 14px;
@@ -92,8 +92,8 @@ li {
 .frontend-mentor {
     margin-left: -10px;
     padding-top: 15px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 83px;
+    padding-right: 83px;
     padding-bottom: 15px;
     font-family: "Inter";
     font-size: 14px;
@@ -105,8 +105,8 @@ li {
 .linkedin {
     margin-left: -10px;
     padding-top: 15px;
-    padding-left: 110px;
-    padding-right: 106px;
+    padding-left: 113px;
+    padding-right: 109px;
     padding-bottom: 15px;
     font-family: "Inter";
     font-size: 14px;
@@ -118,8 +118,8 @@ li {
 .twitter {
     margin-left: -10px;
     padding-top: 15px;
-    padding-left: 115px;
-    padding-right: 110px;
+    padding-left: 118px;
+    padding-right: 113px;
     padding-bottom: 15px;
     font-family: "Inter";
     font-size: 14px;
@@ -131,8 +131,8 @@ li {
 .instagram {
     margin-left: -10px;
     padding-top: 15px;
-    padding-left: 105px;
-    padding-right: 100px;
+    padding-left: 108px;
+    padding-right: 103px;
     padding-bottom: 15px;
     font-family: "Inter";
     font-size: 14px;
