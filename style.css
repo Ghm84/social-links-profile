@@ -1,18 +1,18 @@
 body {
     background-color: hsl(0, 0%, 8%);
-    width: 375px;
-    height: 812px;
+    display: grid;
+    place-content: center;
     overflow: auto;
 }
 
 .card {
     background-color: hsl(0, 0%, 12%);
-    width: 90%;
-    height: 73%;
-    margin-top: 140px;
-    margin-left: 18px;
+    min-width: 21.35rem;
+    min-height: 38.9rem;
+    margin-top: 6.25rem;
+    margin-left: 0.1rem;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 1rem;
 }
 
 .container {
@@ -23,51 +23,54 @@ body {
 
 .bio {
     width: 100%;
-    margin-top: 25px;
+    margin-top: 0.25rem;
 }
 
 .avatar {
-    width: 30%;
+    width: 28%;
     border-radius: 50%;
-    margin-left: 120px;
+    margin-top: 2rem;
+    margin-left: 7.8rem;
 }
 
 h1 {
     color: hsl(0, 0%, 100%);
-    margin-left: 76px;
+    margin-top: 2rem;
+    margin-left: 4.5rem;
     font-family: "Inter";
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 0.05rem;
 }
 
 h2 {
     color: hsl(75, 94%, 57%);
-    margin-top: 5px;
-    margin-left: 84px;
+    margin-top: 1rem;
+    margin-left: 5.4rem;
     font-family: "Inter";
-    font-size: 13.5px;
+    font-size: 0.83rem;
     font-weight: 600;
-    letter-spacing: .75px;
+    letter-spacing: 0.05rem;
 }
 
 p {
     color: hsl(0, 0%, 100%);
-    margin-top: 20px;
-    margin-left: 47px;
+    margin-top: 1rem;
+    margin-left: 2.8rem;
     font-family: "Inter";
-    font-size: 13.75px;
+    font-size: 0.86rem;
     font-weight: 400;
 }
 
 nav {
     width: 100%;
+    align-items: center;
 }
 
 li {
     list-style-type: none;
-    margin-bottom: 20px;
-    padding-top: 25px;
+    margin-bottom: 1.25rem;
+    padding-top: 1.75rem;
 }
 
 #link {
@@ -77,66 +80,157 @@ li {
 }
 
 .github {
-    margin-left: -10px;
-    padding-top: 15px;
-    padding-left: 116px;
-    padding-right: 116px;
-    padding-bottom: 15px;
+    margin-left: -0.8rem;
+    padding-top: 1rem;
+    padding-left: 7.3rem;
+    padding-right: 7.3rem;
+    padding-bottom: 1rem;
     font-family: "Inter";
-    font-size: 14px;
+    font-size: 0.89rem;
     font-weight: 600;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 0.6rem;
 }
 
 .frontend-mentor {
-    margin-left: -10px;
-    padding-top: 15px;
-    padding-left: 83px;
-    padding-right: 83px;
-    padding-bottom: 15px;
+    margin-left: -0.8rem;
+    padding-top: 1rem;
+    padding-left: 5.7rem;
+    padding-right: 4.8rem;
+    padding-bottom: 1rem;
     font-family: "Inter";
-    font-size: 14px;
+    font-size: 0.89rem;
     font-weight: 600;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 0.6rem;
 }
 
 .linkedin {
-    margin-left: -10px;
-    padding-top: 15px;
-    padding-left: 113px;
-    padding-right: 109px;
-    padding-bottom: 15px;
+    margin-left: -0.8rem;
+    padding-top: 1rem;
+    padding-left: 7.2rem;
+    padding-right: 7rem;
+    padding-bottom: 1rem;
     font-family: "Inter";
-    font-size: 14px;
+    font-size: 0.89rem;
     font-weight: 600;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 0.6rem;
 }
 
 .twitter {
-    margin-left: -10px;
-    padding-top: 15px;
-    padding-left: 118px;
-    padding-right: 113px;
-    padding-bottom: 15px;
+    margin-left: -0.8rem;
+    padding-top: 1rem;
+    padding-left: 7.5rem;
+    padding-right: 7.3rem;
+    padding-bottom: 1rem;
     font-family: "Inter";
-    font-size: 14px;
+    font-size: 0.89rem;
     font-weight: 600;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 0.6rem;
 }
 
 .instagram {
-    margin-left: -10px;
-    padding-top: 15px;
-    padding-left: 108px;
-    padding-right: 103px;
-    padding-bottom: 15px;
+    margin-left: -0.8rem;
+    padding-top: 0.9rem;
+    padding-left: 7rem;
+    padding-right: 6.5rem;
+    padding-bottom: 0.9rem;
     font-family: "Inter";
-    font-size: 14px;
+    font-size: 0.89rem;
     font-weight: 600;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 0.6rem;
+}
+
+#link:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+
+@media screen and (min-width: 900px) and (max-width: 1440px) {
+    body {
+        overflow: auto;
+    }
+
+    .card {
+        width: 22.4rem;
+        height: 40rem;
+        margin-top: 11rem;
+        margin-left: 6.5rem;
+        margin-bottom: 10rem;
+        padding-right: 1.7rem;
+    }
+
+    .container {
+        margin-left: 1.8rem;
+    }
+
+    .bio {
+        margin-left: -0.5rem;
+    }
+
+    .avatar {
+        width: 25%;
+        margin-top: 2.3rem;
+        margin-left: 8rem;
+    }
+
+    h1 {
+        margin-top: 1.6rem;
+        margin-left: 5.2rem;
+        font-size: 1.43rem;
+    }
+
+    h2 {
+        margin-top: -0.2rem;
+        margin-left: 5.5rem;
+        font-size: 0.8rem;
+    }
+
+    p {
+        margin-top: 1.8rem;
+        margin-left: 2.8rem;
+        font-size: 0.88rem;
+    }
+
+    nav {
+        margin-top: -0.2rem;
+        margin-left: -0.75rem;
+    }
+
+    .github {
+        margin-left: -1rem; 
+        padding-left: 7.8rem;
+        padding-right: 8.2rem;
+    }
+
+    .frontend-mentor {
+        margin-left: -1rem; 
+        padding-left: 5.4rem;
+        padding-right: 6.4rem;
+    }
+
+    .linkedin {
+        margin-left: -1rem;
+        padding-left: 7.5rem;
+        padding-right: 8rem;
+    }
+
+    .twitter {
+        margin-left: -1rem;
+        padding-left: 7.8rem;
+        padding-right: 8.3rem;
+    }
+
+    .instagram {
+        margin-left: -1rem;
+        padding-left: 7.4rem;
+        padding-right: 7.4rem;
+    }
+
+    #link:hover {
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 8%);
+    }
 }
