@@ -3,14 +3,16 @@ body {
     display: grid;
     place-content: center;
     overflow: auto;
+    padding-left: 2rem;
+    padding-right: 2.5rem;
 }
 
 .card {
     background-color: hsl(0, 0%, 12%);
-    min-width: 21.35rem;
+    min-width: 21.25rem;
     min-height: 38.9rem;
     margin-top: 6.25rem;
-    margin-left: 0.1rem;
+    margin-left: auto;
     align-items: center;
     border-radius: 1rem;
 }
@@ -146,6 +148,7 @@ li {
 
 #link:hover {
     background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
 }
 
 @media screen and (min-width: 900px) and (max-width: 1440px) {
@@ -179,18 +182,21 @@ li {
     h1 {
         margin-top: 1.6rem;
         margin-left: 5.2rem;
+        font-family: "Inter";
         font-size: 1.43rem;
     }
 
     h2 {
         margin-top: -0.2rem;
         margin-left: 5.5rem;
+        font-family: "Inter";
         font-size: 0.8rem;
     }
 
     p {
         margin-top: 1.8rem;
         margin-left: 2.8rem;
+        font-family: "Inter";
         font-size: 0.88rem;
     }
 
@@ -203,30 +209,35 @@ li {
         margin-left: -1rem; 
         padding-left: 7.8rem;
         padding-right: 8.2rem;
+        font-family: "Inter";
     }
 
     .frontend-mentor {
         margin-left: -1rem; 
-        padding-left: 5.4rem;
-        padding-right: 6.4rem;
+        padding-left: 5.8rem;
+        padding-right: 6.1rem;
+        font-family: "Inter";
     }
 
     .linkedin {
         margin-left: -1rem;
         padding-left: 7.5rem;
         padding-right: 8rem;
+        font-family: "Inter";
     }
 
     .twitter {
         margin-left: -1rem;
         padding-left: 7.8rem;
         padding-right: 8.3rem;
+        font-family: "Inter";
     }
 
     .instagram {
         margin-left: -1rem;
         padding-left: 7.4rem;
         padding-right: 7.4rem;
+        font-family: "Inter";
     }
 
     #link:hover {
