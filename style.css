@@ -9,7 +9,7 @@ body {
 
 .card {
     background-color: hsl(0, 0%, 12%);
-    min-width: 21.25rem;
+    min-width: 21.15rem;
     min-height: 38.9rem;
     margin-top: 6.25rem;
     margin-left: auto;
@@ -32,13 +32,13 @@ body {
     width: 28%;
     border-radius: 50%;
     margin-top: 2rem;
-    margin-left: 7.8rem;
+    margin-left: 7.9rem;
 }
 
 h1 {
     color: hsl(0, 0%, 100%);
     margin-top: 2rem;
-    margin-left: 4.5rem;
+    margin-left: 4.7rem;
     font-family: "Inter";
     font-size: 1.5rem;
     font-weight: 600;
@@ -48,7 +48,7 @@ h1 {
 h2 {
     color: hsl(75, 94%, 57%);
     margin-top: 1rem;
-    margin-left: 5.4rem;
+    margin-left: 5rem;
     font-family: "Inter";
     font-size: 0.83rem;
     font-weight: 600;
@@ -58,7 +58,7 @@ h2 {
 p {
     color: hsl(0, 0%, 100%);
     margin-top: 1rem;
-    margin-left: 2.8rem;
+    margin-left: 2.5rem;
     font-family: "Inter";
     font-size: 0.86rem;
     font-weight: 400;
@@ -84,14 +84,14 @@ li {
     font-weight: 600;
     text-align: center;
     border-radius: 0.6rem;
-    margin: auto;
+    margin-left: -0.7rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
 .github {
-    padding-left: 7.3rem;
-    padding-right: 7.3rem;    
+    padding-left: 7.4rem;
+    padding-right: 7.4rem;    
 }
 
 .frontend-mentor {
@@ -130,37 +130,39 @@ li {
         margin-top: 11rem;
         margin-left: 6.8rem;
         margin-bottom: 10rem;
-        padding-left: 0.3rem;
-        padding-right: 2.4rem;
+        padding-left: 0.2rem;
+        padding-right: 2.7rem;
     }
 
     .container {
-        margin-left: 2rem;
+        margin-left: 2.2rem;
     }
 
     .avatar {
         width: 26%;
         margin-top: 2.3rem;
-        margin-left: 7rem;
+        margin-left: 6.9rem;
     }
 
     h1 {
-        margin-top: 1.7rem;
-        margin-left: 4rem;
+        margin-top: 1.55rem;
+        margin-left: 4.22rem;
         font-family: "Inter";
-        font-size: 1.44rem;
+        font-size: 1.47rem;
+        letter-spacing: 0.02rem;
     }
 
     h2 {
-        margin-top: -0.2rem;
-        margin-left: 4.5rem;
+        margin-top: -0.25rem;
+        margin-left: 4.6rem;
         font-family: "Inter";
-        font-size: 0.8rem;
+        font-size: 0.85rem;
+        letter-spacing: 0.02rem;
     }
 
     p {
         margin-top: 1.8rem;
-        margin-left: 1.8rem;
+        margin-left: 1.7rem;
         font-family: "Inter";
         font-size: 0.88rem;
     }
@@ -172,8 +174,8 @@ li {
     .social-link {
         margin-left: -2.5rem;
         font-family: "Inter";
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding-top: 0.9rem;
+        padding-bottom: 0.9rem;
     }
 
     .github {
