@@ -75,78 +75,55 @@ li {
     padding-top: 1.75rem;
 }
 
-#link {
+.social-link {
     color: hsl(0, 0%, 100%);
     text-decoration: none;
-    background-color: hsl(0, 0%, 20%);  
+    background-color: hsl(0, 0%, 20%);
+    font-family: "Inter";
+    font-size: 0.89rem;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 0.6rem;
+    margin-left: -0.8rem;
 }
 
 .github {
-    margin-left: -0.8rem;
     padding-top: 1rem;
     padding-left: 7.3rem;
     padding-right: 7.3rem;
     padding-bottom: 1rem;
-    font-family: "Inter";
-    font-size: 0.89rem;
-    font-weight: 600;
-    text-align: center;
-    border-radius: 0.6rem;
+    
 }
 
 .frontend-mentor {
-    margin-left: -0.8rem;
     padding-top: 1rem;
     padding-left: 5.7rem;
     padding-right: 4.8rem;
     padding-bottom: 1rem;
-    font-family: "Inter";
-    font-size: 0.89rem;
-    font-weight: 600;
-    text-align: center;
-    border-radius: 0.6rem;
 }
 
 .linkedin {
-    margin-left: -0.8rem;
     padding-top: 1rem;
     padding-left: 7.2rem;
     padding-right: 7rem;
     padding-bottom: 1rem;
-    font-family: "Inter";
-    font-size: 0.89rem;
-    font-weight: 600;
-    text-align: center;
-    border-radius: 0.6rem;
 }
 
 .twitter {
-    margin-left: -0.8rem;
     padding-top: 1rem;
     padding-left: 7.5rem;
     padding-right: 7.3rem;
     padding-bottom: 1rem;
-    font-family: "Inter";
-    font-size: 0.89rem;
-    font-weight: 600;
-    text-align: center;
-    border-radius: 0.6rem;
 }
 
 .instagram {
-    margin-left: -0.8rem;
     padding-top: 0.9rem;
     padding-left: 7rem;
     padding-right: 6.5rem;
     padding-bottom: 0.9rem;
-    font-family: "Inter";
-    font-size: 0.89rem;
-    font-weight: 600;
-    text-align: center;
-    border-radius: 0.6rem;
 }
 
-#link:hover {
+.social-link:hover {
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
 }
@@ -205,42 +182,37 @@ li {
         margin-left: -0.75rem;
     }
 
-    .github {
-        margin-left: -1rem; 
-        padding-left: 7.8rem;
-        padding-right: 8.2rem;
-        font-family: "Inter";
+    .social-link {
+        margin-left: -1rem;
+        font-family: "Inter"; 
     }
 
-    .frontend-mentor {
-        margin-left: -1rem; 
+    .github {
+        padding-left: 7.8rem;
+        padding-right: 8.2rem;
+    }
+
+    .frontend-mentor { 
         padding-left: 5.8rem;
         padding-right: 6.1rem;
-        font-family: "Inter";
     }
 
     .linkedin {
-        margin-left: -1rem;
         padding-left: 7.5rem;
         padding-right: 8rem;
-        font-family: "Inter";
     }
 
     .twitter {
-        margin-left: -1rem;
         padding-left: 7.8rem;
         padding-right: 8.3rem;
-        font-family: "Inter";
     }
 
     .instagram {
-        margin-left: -1rem;
         padding-left: 7.4rem;
         padding-right: 7.4rem;
-        font-family: "Inter";
     }
 
-    #link:hover {
+    .social-link:hover {
         background-color: hsl(75, 94%, 57%);
         color: hsl(0, 0%, 8%);
     }
