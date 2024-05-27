@@ -125,78 +125,80 @@ li {
     }
 
     .card {
-        width: 22.4rem;
+        width: 20.4rem;
         height: 40rem;
         margin-top: 11rem;
-        margin-left: 6.5rem;
+        margin-left: 6.8rem;
         margin-bottom: 10rem;
-        padding-left: 0.2rem;
-        padding-right: 2.5rem;
+        padding-left: 0.3rem;
+        padding-right: 2.4rem;
     }
 
     .container {
-        margin-left: 1.8rem;
+        margin-left: 2rem;
     }
 
     .avatar {
-        width: 25%;
+        width: 26%;
         margin-top: 2.3rem;
-        margin-left: 8rem;
+        margin-left: 7rem;
     }
 
     h1 {
-        margin-top: 1.6rem;
-        margin-left: 5.2rem;
+        margin-top: 1.7rem;
+        margin-left: 4rem;
         font-family: "Inter";
-        font-size: 1.43rem;
+        font-size: 1.44rem;
     }
 
     h2 {
-        margin-top: 0.02rem;
-        margin-left: 5.5rem;
+        margin-top: -0.2rem;
+        margin-left: 4.5rem;
         font-family: "Inter";
         font-size: 0.8rem;
     }
 
     p {
         margin-top: 1.8rem;
-        margin-left: 2.8rem;
+        margin-left: 1.8rem;
         font-family: "Inter";
         font-size: 0.88rem;
     }
 
     nav {
         margin-top: 0.02rem;
-        margin-left: 0.05rem;
     }
 
     .social-link {
-        font-family: "Inter"; 
+        margin-left: -2.5rem;
+        font-family: "Inter";
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 
     .github {
         padding-left: 8rem;
-        padding-right: 8rem;
+        padding-right: 8.5rem;
     }
 
     .frontend-mentor { 
         padding-left: 5.8rem;
-        padding-right: 6.1rem;
+        padding-right: 6.6rem;
     }
 
     .linkedin {
         padding-left: 7.5rem;
-        padding-right: 8rem;
+        padding-right: 8.5rem;
     }
 
     .twitter {
         padding-left: 7.8rem;
-        padding-right: 8.3rem;
+        padding-right: 8.8rem;
     }
 
     .instagram {
         padding-left: 7.4rem;
-        padding-right: 7.4rem;
+        padding-right: 7.9rem;
     }
 
     .social-link:hover {
