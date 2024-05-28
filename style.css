@@ -3,7 +3,7 @@ body {
     display: grid;
     place-content: center;
     overflow: auto;
-    padding-left: 2rem;
+    padding-left: 2.5rem;
     padding-right: 2.5rem;
 }
 
